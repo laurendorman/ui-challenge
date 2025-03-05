@@ -2,11 +2,11 @@
 
 ## Challenge Overview
 
-In this coding challenge, you will create a pixel-perfect clone of the Spotify user interface as shown in the demo image below:
+In this coding challenge, you will create a clone of the Spotify user interface as shown in the demo image below:
 
 ![Spotify UI Demo](./public/demo.png)
 
-Your task is to recreate this interface using Next.js, React, and appropriate styling techniques. This challenge will test your frontend development skills, attention to detail, and ability to implement modern UI designs.
+Your task is to recreate this interface using React, and appropriate styling techniques. This challenge will test your frontend development skills, attention to detail, and ability to implement modern UI designs.
 
 ## Getting Started
 
