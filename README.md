@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Spotify UI Clone Challenge
+
+## Challenge Overview
+
+In this coding challenge, you will create a pixel-perfect clone of the Spotify user interface as shown in the demo image below:
+
+![Spotify UI Demo](./public/demo.png)
+
+Your task is to recreate this interface using Next.js, React, and appropriate styling techniques. This challenge will test your frontend development skills, attention to detail, and ability to implement modern UI designs.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository:
+
+```bash
+git clone <repository-url>
+cd spotify-ui-challenge
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +41,53 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see your implementation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Challenge Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Your implementation should:
 
-## Learn More
+- Match the layout, colors, and spacing shown in the demo image
+- Include all UI elements (sidebar, playlist header, song list, playback controls)
+- Be responsive (adapt to different screen sizes)
+- Use appropriate hover states for interactive elements
+- Ensure proper alignment of all elements
+- Use the provided SVG assets in the public folder
 
-To learn more about Next.js, take a look at the following resources:
+## Technical Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Use Next.js framework
+- Implement with TypeScript
+- Use modern CSS techniques (CSS modules, Tailwind CSS, styled-components, or similar)
+- Create reusable components where appropriate
+- Follow best practices for accessibility
+- Ensure clean, well-organized code structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Submission Guidelines
 
-## Deploy on Vercel
+Once you've completed the challenge:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Ensure all code is committed to your repository
+2. Deploy your solution (using Vercel, Netlify, or a similar platform) if required
+3. Submit the repository URL and deployed URL according to the provided instructions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Evaluation Criteria
+
+Your submission will be evaluated based on:
+
+- Visual accuracy compared to the demo image
+- Code quality and organization
+- Component architecture
+- Performance considerations
+- Responsiveness and accessibility
+- Attention to detail
+
+## Assets
+
+All necessary icons and images are provided in the `public` directory of this repository.
+
+## Questions?
+
+If you have any questions or need clarification about the challenge, please reach out to [contact information].
+
+Good luck!

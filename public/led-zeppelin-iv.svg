@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#e8e0d0" />
+  
+  <!-- Old man with sticks -->
+  <g transform="translate(60,40) scale(0.8)">
+    <!-- The hermit figure -->
+    <path d="M60,40 L80,130 L100,130 L120,40" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Head -->
+    <circle cx="90" cy="30" r="15" fill="#333" />
+    <!-- Arms with stick -->
+    <path d="M70,60 L30,90 M110,60 L150,90" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Staff/walking stick -->
+    <path d="M30,90 L20,140" fill="none" stroke="#333" stroke-width="3" />
+  </g>
+  
+  <!-- Texture overlay -->
+  <rect width="100%" height="100%" fill="#000" fill-opacity="0.1" />
+  
+  <!-- Album title -->
+  <text x="50%" y="175" font-family="serif" font-size="12" fill="#333" text-anchor="middle">Led Zeppelin IV</text>
+  <text x="50%" y="190" font-family="serif" font-size="10" fill="#555" text-anchor="middle">Led Zeppelin</text>
+</svg> 

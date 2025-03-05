@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background - red like the original album -->
+  <rect width="100%" height="100%" fill="#b40000" />
+  
+  <!-- Michael Jackson silhouette -->
+  <g transform="translate(50, 30)">
+    <!-- Head and hair -->
+    <ellipse cx="50" cy="40" rx="30" ry="35" fill="#111" />
+    <!-- White suit -->
+    <path d="M30,75 L20,140 L80,140 L70,75" fill="#fff" />
+    <!-- Black shirt -->
+    <path d="M40,75 L35,120 L65,120 L60,75" fill="#000" />
+    <!-- White glove on one hand -->
+    <rect x="15" y="105" width="15" height="15" fill="#fff" />
+  </g>
+  
+  <!-- MJ pose suggestion -->
+  <path d="M50,150 L70,170 M150,150 L130,170" fill="none" stroke="#111" stroke-width="2" />
+  
+  <!-- Album title -->
+  <text x="50%" y="180" font-family="sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">THRILLER</text>
+  <text x="50%" y="195" font-family="sans-serif" font-size="8" fill="#eee" text-anchor="middle">Michael Jackson</text>
+</svg> 

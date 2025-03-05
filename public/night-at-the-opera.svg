@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000" />
+  
+  <!-- Ornate border inspired by the album -->
+  <rect x="10" y="10" width="180" height="180" fill="none" stroke="#DDD" stroke-width="2" />
+  <rect x="20" y="20" width="160" height="160" fill="none" stroke="#CCC" stroke-width="1" />
+  
+  <!-- Queen crest -->
+  <circle cx="100" cy="80" r="40" fill="none" stroke="#FFF" stroke-width="2" />
+  <path d="M100,60 L100,100 M80,80 L120,80" stroke="#FFF" stroke-width="3" />
+  <path d="M70,60 Q100,30 130,60" stroke="#FFF" stroke-width="2" fill="none" />
+  
+  <!-- Stylized Q -->
+  <path d="M85,120 Q85,100 100,100 Q115,100 115,120 Q115,140 100,140 Q85,140 85,120 M115,135 L125,145" fill="none" stroke="#FFF" stroke-width="3" />
+  
+  <!-- Album title -->
+  <text x="50%" y="175" font-family="serif" font-size="12" fill="white" text-anchor="middle">A Night at the Opera</text>
+  <text x="50%" y="190" font-family="serif" font-size="10" fill="#CCC" text-anchor="middle">Queen</text>
+</svg> 
