@@ -1,0 +1,56 @@
+export const songs = [
+  {
+    title: 'Bohemian Rhapsody',
+    artist: 'Queen',
+    album: 'A Night at the Opera',
+    duration: '5:55',
+    image: '/night-at-the-opera.svg',
+  },
+  {
+    title: 'Stairway to Heaven',
+    artist: 'Led Zeppelin',
+    album: 'Led Zeppelin IV',
+    duration: '8:02',
+    image: '/led-zeppelin-iv.svg',
+  },
+  {
+    title: 'Imagine',
+    artist: 'John Lennon',
+    album: 'Imagine',
+    duration: '3:01',
+    image: '/imagine.svg',
+  },
+  {
+    title: 'Smells Like Teen Spirit',
+    artist: 'Nirvana',
+    album: 'Nevermind',
+    duration: '5:01',
+    image: '/nevermind.svg',
+  },
+  {
+    title: 'Billie Jean',
+    artist: 'Michael Jackson',
+    album: 'Thriller',
+    duration: '4:54',
+    image: '/thriller.svg',
+  },
+];
+
+export const playlists = [
+  'Chill Vibes',
+  'Workout Mix',
+  '90s Throwback',
+  'Indie Acoustic',
+  'Focus Playlist',
+  'Road Trip Tunes',
+  'Rainy Day Jazz',
+  'Summer Hits',
+  'Classical Essentials',
+  'Hip Hop Favorites',
+  'Rock Classics',
+  'Country Favorites',
+  'Electronic Dance',
+  'Chillout Session',
+  'Road Trip Tunes',
+  'Rainy Day Jazz',
+];
